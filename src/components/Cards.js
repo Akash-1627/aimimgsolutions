@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Cards = () => {
+    useEffect(() => {
+        AOS.init();
+      }, []);
     return (
         <>
             <div className='cards'>
                 
-            <div className='card'>
+            <div className='card' data-aos="fade-right">
                     <div className='leftside'>
                         <div className='number'>
                             <div className='num'>
@@ -43,7 +48,7 @@ const Cards = () => {
 
 
 
-                <div className='card2'>
+                <div className='card2' data-aos="fade-left">
                     <div className='leftside'>
                         <div className='number'>
                             <div className='num'>
@@ -80,7 +85,7 @@ const Cards = () => {
 
 
 
-                <div className='card'>
+                <div className='card' data-aos="fade-right">
                     <div className='leftside'>
                         <div className='number'>
                             <div className='num'>
@@ -117,7 +122,7 @@ const Cards = () => {
 
 
 
-                <div className='card2'>
+                <div className='card2' data-aos="fade-left">
                     <div className='leftside'>
                         <div className='number'>
                             <div className='num'>
@@ -154,7 +159,7 @@ const Cards = () => {
 
 
 
-                <div className='card'>
+                <div className='card' data-aos="fade-right">
                     <div className='leftside'>
                         <div className='number'>
                             <div className='num'>
@@ -191,7 +196,7 @@ const Cards = () => {
 
 
 
-                <div className='card2'>
+                <div className='card2' data-aos="fade-left">
                     <div className='leftside'>
                         <div className='number'>
                             <div className='num'>
@@ -228,7 +233,7 @@ const Cards = () => {
 
 
 
-                <div className='card'>
+                <div className='card' data-aos="fade-right">
                     <div className='leftside'>
                         <div className='number'>
                             <div className='num'>

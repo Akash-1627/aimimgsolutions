@@ -160,7 +160,7 @@ nav .nav-close-btn{
     margin-top: 2rem;
 }
 .card{
-    position: relative;
+    /* position: relative; */
     left: 10rem;
     display: flex;
     align-items: center;

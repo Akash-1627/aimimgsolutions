@@ -40,22 +40,22 @@ const Footer = () => {
 
                                 <div className='compinfobox'>
                                     <div className='location'>
-                                        <i class='bx bx-map-alt'></i>
+                                        <i className='bx bx-map-alt'></i>
                                         <p>A-67, Ground Floor, A Block, Kamla Nagar, New Delhi 110007</p>
                                     </div>
                                     <div className='call'>
-                                        <i class='bx bxs-phone'></i>
+                                        <i className='bx bxs-phone'></i>
                                         <p>+91 9990519499</p>
                                     </div>
                                 </div>
 
                                 <div className='compinfobox'>
                                     <div className='location'>
-                                    <i class='bx bx-map-alt'></i>
+                                    <i className='bx bx-map-alt'></i>
                                         <p>T-302, Arjun Plaza, Dwarka Sec-5, New Delhi 110075</p>
                                     </div>
                                     <div className='call'>
-                                    <i class='bx bxs-phone'></i>
+                                    <i className='bx bxs-phone'></i>
                                         <p>+91 9990519499</p>
                                     </div>
                                 </div>
@@ -87,12 +87,12 @@ const Footer = () => {
                         <h2>Follow Us</h2>
                         <hr className='rule'/>
                         <div className='socialdata'>
-                            <div className='sociallinks facebook'><i class='bx bxl-facebook'></i></div>
-                            <div className='sociallinks insta'><i class='bx bxl-instagram'></i></div>
-                            <div className='sociallinks twitter'><i class='bx bxl-twitter'></i></div>
-                            <div className='sociallinks pint'><i class='bx bxl-pinterest'></i></div>
-                            <div className='sociallinks linkedin'><i class='bx bxl-linkedin'></i></div>
-                            <div className='sociallinks youtube'><i class='bx bxl-youtube'></i></div>
+                            <div className='sociallinks facebook'><i className='bx bxl-facebook'></i></div>
+                            <div className='sociallinks insta'><i className='bx bxl-instagram'></i></div>
+                            <div className='sociallinks twitter'><i className='bx bxl-twitter'></i></div>
+                            <div className='sociallinks pint'><i className='bx bxl-pinterest'></i></div>
+                            <div className='sociallinks linkedin'><i className='bx bxl-linkedin'></i></div>
+                            <div className='sociallinks youtube'><i className='bx bxl-youtube'></i></div>
                         </div>
                     </div>
                 </div>
